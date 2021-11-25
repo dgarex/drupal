@@ -20,6 +20,8 @@
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
         "drupal/core-vendor-hardening": "^9.2",
+        "drupal/geofield": "^1.35",
+        "drupal/pathauto": "^1.8",
         "drush/drush": "^10.6"
     },
     "conflict": {
