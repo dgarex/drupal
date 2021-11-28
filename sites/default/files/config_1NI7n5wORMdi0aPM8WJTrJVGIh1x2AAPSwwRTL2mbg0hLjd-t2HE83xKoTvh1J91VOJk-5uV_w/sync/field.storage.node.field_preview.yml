@@ -1,0 +1,30 @@
+uuid: 0963be93-88b4-4287-9000-c5e69256eec0
+langcode: ru
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_preview
+field_name: field_preview
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: 'Превью статьи'
+    title: 'Превью статьи'
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

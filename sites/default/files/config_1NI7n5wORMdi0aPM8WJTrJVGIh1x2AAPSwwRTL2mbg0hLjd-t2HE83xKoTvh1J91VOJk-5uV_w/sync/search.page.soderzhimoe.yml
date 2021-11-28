@@ -1,0 +1,14 @@
+uuid: c2baa7f8-6b2d-40c6-98a3-30e14ac4700d
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: soderzhimoe
+label: Содержимое
+path: rooms
+weight: 0
+plugin: node_search
+configuration:
+  rankings:
+    recent: 1

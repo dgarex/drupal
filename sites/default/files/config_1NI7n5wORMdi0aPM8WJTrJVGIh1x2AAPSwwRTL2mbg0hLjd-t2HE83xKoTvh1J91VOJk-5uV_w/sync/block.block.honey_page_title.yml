@@ -1,0 +1,20 @@
+uuid: 6ca9cc74-6e90-4f62-a1ea-e5144581e039
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - honey
+_core:
+  default_config_hash: LI3SJbji_23vTbcL_4VrjW0SUhyIxF7_CAdMtpi2H0w
+id: honey_page_title
+theme: honey
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

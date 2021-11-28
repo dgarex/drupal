@@ -1,0 +1,11 @@
+uuid: 79b7606a-9093-41e8-b40b-435eae4b2886
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.room
+id: node.room
+target_entity_type_id: node
+target_bundle: room
+default_langcode: site_default
+language_alterable: false

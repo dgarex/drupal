@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-main',
-    'version' => 'dev-main',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => '47ff0962ff034336c3c11eafeb2420b16af348f1',
+    'reference' => '8fbddb14d8c9125216a6a4742a3ab62d43b48975',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -268,6 +268,15 @@
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/colorbox' => 
+    array (
+      'pretty_version' => '1.7.0',
+      'version' => '1.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.7',
     ),
     'drupal/comment' => 
     array (
@@ -538,6 +547,15 @@
         0 => '9.2.10',
       ),
     ),
+    'drupal/ctools' => 
+    array (
+      'pretty_version' => '3.7.0',
+      'version' => '3.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-3.7',
+    ),
     'drupal/datetime' => 
     array (
       'replaced' => 
@@ -622,6 +640,15 @@
         0 => '9.2.10',
       ),
     ),
+    'drupal/geofield' => 
+    array (
+      'pretty_version' => '1.35.0',
+      'version' => '1.35.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.35',
+    ),
     'drupal/hal' => 
     array (
       'replaced' => 
@@ -694,12 +721,12 @@
     ),
     'drupal/legacy-project' => 
     array (
-      'pretty_version' => 'dev-main',
-      'version' => 'dev-main',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => '47ff0962ff034336c3c11eafeb2420b16af348f1',
+      'reference' => '8fbddb14d8c9125216a6a4742a3ab62d43b48975',
     ),
     'drupal/link' => 
     array (
@@ -820,6 +847,15 @@
         0 => '9.2.10',
       ),
     ),
+    'drupal/pathauto' => 
+    array (
+      'pretty_version' => '1.8.0',
+      'version' => '1.8.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.8',
+    ),
     'drupal/quickedit' => 
     array (
       'replaced' => 
@@ -938,6 +974,15 @@
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/token' => 
+    array (
+      'pretty_version' => '1.9.0',
+      'version' => '1.9.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.9',
     ),
     'drupal/toolbar' => 
     array (
@@ -1189,6 +1234,15 @@
       ),
       'reference' => 'b14fbe2ddb0b9f94f5b24cf08783d599f776fff0',
     ),
+    'phayes/geophp' => 
+    array (
+      'pretty_version' => '1.2',
+      'version' => '1.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '015404e85b602e0df1f91441f8db0f9e98f7e567',
+    ),
     'psr/cache' => 
     array (
       'pretty_version' => '1.0.1',
@@ -1211,8 +1265,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '^1.0',
+        0 => '^1.0',
+        1 => '1.0',
       ),
     ),
     'psr/event-dispatcher-implementation' => 

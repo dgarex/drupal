@@ -1,0 +1,8 @@
+uuid: b928efd9-8475-43a2-8e77-ca55dc80b28f
+langcode: ru
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Категории статей'
+weight: 0
