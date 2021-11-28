@@ -1,0 +1,14 @@
+uuid: b112b3ee-7551-4a73-81f0-03ef0dc1ff09
+langcode: ru
+status: true
+dependencies: {  }
+name: adci
+label: ADCI
+effects:
+  6b064084-65b1-404e-b507-a09b34c1a4c3:
+    uuid: 6b064084-65b1-404e-b507-a09b34c1a4c3
+    id: image_resize
+    weight: 1
+    data:
+      width: 280
+      height: 360

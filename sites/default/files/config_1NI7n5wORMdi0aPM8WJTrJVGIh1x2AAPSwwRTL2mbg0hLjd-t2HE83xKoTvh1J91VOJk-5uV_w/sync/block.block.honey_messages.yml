@@ -1,0 +1,22 @@
+uuid: cd2dfe22-2fb4-4ce1-a418-3b0b8ac1e930
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - honey
+_core:
+  default_config_hash: 1qVxlS86fiC_qlIAVMXSDHuJCGLhTU9JCYIc08fNuE8
+id: honey_messages
+theme: honey
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

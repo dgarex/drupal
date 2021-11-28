@@ -1,0 +1,36 @@
+uuid: e504755c-7f21-457c-a05d-b0b2a78784d8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.room
+    - taxonomy.vocabulary.categories
+  content:
+    - 'taxonomy_term:categories:aade2ab7-943f-4d40-b411-5dea827a08d7'
+    - 'taxonomy_term:categories:b12511dc-e1e6-4124-bbea-0271c8f91838'
+id: node.room.field_tags
+field_name: field_tags
+entity_type: node
+bundle: room
+label: Categories
+description: 'Выбор категории материала'
+required: true
+translatable: true
+default_value:
+  -
+    target_uuid: b12511dc-e1e6-4124-bbea-0271c8f91838
+  -
+    target_uuid: aade2ab7-943f-4d40-b411-5dea827a08d7
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories: categories
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

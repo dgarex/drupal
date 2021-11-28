@@ -1,0 +1,25 @@
+uuid: a48a601f-9971-4542-9254-34226c581733
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - honey
+_core:
+  default_config_hash: nvSPqpj-Mnb-INWKhuJNXNx3MKMHbpsjTQfraFsswqw
+id: honey_branding
+theme: honey
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
