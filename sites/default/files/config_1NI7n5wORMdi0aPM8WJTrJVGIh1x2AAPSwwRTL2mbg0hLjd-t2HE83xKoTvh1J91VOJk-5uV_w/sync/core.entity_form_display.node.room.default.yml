@@ -1,30 +1,22 @@
-uuid: b4c40b16-9247-4831-9347-3e24fed8cc8b
+uuid: a41ee262-28d8-4822-807f-1d1f7eff7df4
 langcode: ru
 status: true
 dependencies:
   config:
     - field.field.node.room.body
+    - field.field.node.room.field_categories
     - field.field.node.room.field_description
     - field.field.node.room.field_photos
     - field.field.node.room.field_preview
     - field.field.node.room.field_price
-    - field.field.node.room.field_tags
-    - field.field.node.room.field_tags_
+    - field.field.node.room.field_tagss
     - field.field.node.room.field_title
-    - field.field.node.room.layout_builder__layout
     - image.style.thumbnail
     - node.type.room
   module:
-    - field_layout
     - image
-    - layout_discovery
     - path
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
 id: node.room.default
 targetEntityType: node
 bundle: room
@@ -46,39 +38,8 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_description:
-    weight: 124
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_photos:
+  field_categories:
     weight: 126
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
-  field_preview:
-    weight: 122
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
-  field_price:
-    weight: 128
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-    type: number
-    region: content
-  field_tags:
-    weight: 125
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -87,8 +48,39 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_tags_:
+  field_description:
+    weight: 130
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_photos:
     weight: 127
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_preview:
+    weight: 123
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_price:
+    weight: 125
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_tagss:
+    weight: 128
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -98,7 +90,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_title:
-    weight: 123
+    weight: 129
     settings:
       size: 60
       placeholder: ''
@@ -157,5 +149,4 @@ content:
       match_limit: 10
     region: content
     third_party_settings: {  }
-hidden:
-  layout_builder__layout: true
+hidden: {  }

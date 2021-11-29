@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '8fbddb14d8c9125216a6a4742a3ab62d43b48975',
+    'reference' => '4c60e1ac2ee97377254a5e247278b11ea4a4f9ae',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -184,6 +184,15 @@
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/backup_migrate' => 
+    array (
+      'pretty_version' => '5.0.1',
+      'version' => '5.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5.0.1',
     ),
     'drupal/ban' => 
     array (
@@ -633,6 +642,15 @@
         0 => '9.2.10',
       ),
     ),
+    'drupal/flexslider' => 
+    array (
+      'pretty_version' => '2.0.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.0',
+    ),
     'drupal/forum' => 
     array (
       'replaced' => 
@@ -726,7 +744,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '8fbddb14d8c9125216a6a4742a3ab62d43b48975',
+      'reference' => '4c60e1ac2ee97377254a5e247278b11ea4a4f9ae',
     ),
     'drupal/link' => 
     array (
@@ -1025,6 +1043,16 @@
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/views_slideshow' => 
+    array (
+      'pretty_version' => 'dev-4.x',
+      'version' => 'dev-4.x',
+      'aliases' => 
+      array (
+        0 => '4.x-dev',
+      ),
+      'reference' => '682e36ede41c5022e4dd5d433bb7cebcfd97d9f1',
     ),
     'drupal/views_ui' => 
     array (

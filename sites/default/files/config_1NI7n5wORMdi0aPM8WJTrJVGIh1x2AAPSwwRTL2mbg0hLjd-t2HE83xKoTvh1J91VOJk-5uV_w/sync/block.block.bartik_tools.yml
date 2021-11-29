@@ -1,4 +1,4 @@
-uuid: 6a5f0105-f0ff-4bb6-af67-de2b5f090496
+uuid: 33493a65-cea3-41ef-a985-a1e1b9ceb15b
 langcode: ru
 status: true
 dependencies:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tools
+  label: Инструменты
   provider: system
   label_display: visible
   level: 1

@@ -1,12 +1,10 @@
-uuid: c1b06116-da2e-4381-b351-1c971fe8b06b
+uuid: 4387ffe8-b45a-41a8-9072-994dfdb06b37
 langcode: ru
 status: true
 dependencies:
   config:
     - field.storage.taxonomy_term.field_min_price
     - taxonomy.vocabulary.categories
-  module:
-    - options
 id: taxonomy_term.categories.field_min_price
 field_name: field_min_price
 entity_type: taxonomy_term
@@ -17,5 +15,9 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: list_float
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

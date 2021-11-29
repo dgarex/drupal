@@ -1,4 +1,4 @@
-uuid: d50b2632-c4a2-41c9-878c-885e8902d79b
+uuid: 75ed6c9c-11a7-4176-ae70-9ec9f67eb3c0
 langcode: ru
 status: true
 dependencies:
@@ -19,7 +19,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Default
+    display_title: 'По умолчанию'
     position: 0
     display_options:
       access:

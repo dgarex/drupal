@@ -1,0 +1,14 @@
+uuid: 531dd60a-1ad2-4842-9a39-527a2d633656
+langcode: ru
+status: true
+dependencies: {  }
+name: '280_3'
+label: '280 360'
+effects:
+  75641e5f-1e7b-4bd4-a285-fb070ba8d79b:
+    uuid: 75641e5f-1e7b-4bd4-a285-fb070ba8d79b
+    id: image_resize
+    weight: 1
+    data:
+      width: 280
+      height: 360

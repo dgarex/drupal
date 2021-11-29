@@ -1,4 +1,4 @@
-uuid: 0963be93-88b4-4287-9000-c5e69256eec0
+uuid: e7393be9-a5a7-4271-8c84-2d96fec133dd
 langcode: ru
 status: true
 dependencies:
@@ -14,8 +14,8 @@ settings:
   uri_scheme: public
   default_image:
     uuid: ''
-    alt: 'Превью статьи'
-    title: 'Превью статьи'
+    alt: ''
+    title: ''
     width: null
     height: null
   target_type: file

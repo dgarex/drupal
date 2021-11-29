@@ -1,96 +1,15 @@
-uuid: fb9c4282-0781-418a-838e-94b73486a09e
+uuid: 466202f9-1728-4e84-b2f3-da46499984fa
 langcode: ru
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.categories.field_image
     - field.field.taxonomy_term.categories.field_min_price
     - field.field.taxonomy_term.categories.field_short_description
-    - field.field.taxonomy_term.categories.field_taks_img
     - taxonomy.vocabulary.categories
   module:
-    - field_layout
     - image
-    - layout_builder
-    - layout_discovery
-    - options
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          d262c355-d79d-4e06-976f-25b0be713b02:
-            uuid: d262c355-d79d-4e06-976f-25b0be713b02
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:taxonomy_term:categories:description'
-              formatter:
-                label: hidden
-                type: text_default
-                settings: {  }
-                third_party_settings: {  }
-            additional: {  }
-            weight: 0
-          f952bffc-4b77-49a8-aefa-4ce91c8b8186:
-            uuid: f952bffc-4b77-49a8-aefa-4ce91c8b8186
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:taxonomy_term:categories:field_taks_img'
-              formatter:
-                label: above
-                settings:
-                  image_style: ''
-                  image_link: ''
-                third_party_settings: {  }
-                type: image
-            additional: {  }
-            weight: 1
-          dfa8da54-108f-411a-8889-a6f22c427e07:
-            uuid: dfa8da54-108f-411a-8889-a6f22c427e07
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:taxonomy_term:categories:field_short_description'
-              formatter:
-                label: above
-                settings:
-                  link_to_entity: false
-                third_party_settings: {  }
-                type: string
-            additional: {  }
-            weight: 2
-          a45bdfbd-b662-4478-a240-6449e463f217:
-            uuid: a45bdfbd-b662-4478-a240-6449e463f217
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:taxonomy_term:categories:field_min_price'
-              formatter:
-                label: above
-                settings: {  }
-                third_party_settings: {  }
-                type: list_default
-            additional: {  }
-            weight: 3
-        third_party_settings: {  }
 id: taxonomy_term.categories.default
 targetEntityType: taxonomy_term
 bundle: categories
@@ -103,12 +22,25 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
   field_min_price:
     weight: 3
     label: above
-    settings: {  }
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
     third_party_settings: {  }
-    type: list_default
+    type: number_decimal
     region: content
   field_short_description:
     weight: 2
@@ -117,15 +49,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
-  field_taks_img:
-    weight: 1
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
     region: content
 hidden:
   langcode: true

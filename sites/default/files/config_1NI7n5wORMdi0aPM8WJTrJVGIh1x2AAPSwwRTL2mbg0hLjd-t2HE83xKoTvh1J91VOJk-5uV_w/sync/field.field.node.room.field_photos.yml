@@ -1,4 +1,4 @@
-uuid: 6b35ff4b-616e-471f-bdb5-b53d839b7855
+uuid: 6fff8d9e-bb11-4012-a0b8-122b12618e0a
 langcode: ru
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_photos
 entity_type: node
 bundle: room
 label: Photos
-description: 'Фото в статье'
+description: ''
 required: false
 translatable: false
 default_value: {  }

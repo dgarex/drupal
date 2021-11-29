@@ -1,65 +1,21 @@
-uuid: 912d4b22-5744-4863-bd8a-b391e0c4800d
+uuid: 3adaa5e6-98ba-4ff0-8394-e3e79bc15720
 langcode: ru
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.room.body
+    - field.field.node.room.field_categories
     - field.field.node.room.field_description
     - field.field.node.room.field_photos
     - field.field.node.room.field_preview
     - field.field.node.room.field_price
-    - field.field.node.room.field_tags
-    - field.field.node.room.field_tags_
+    - field.field.node.room.field_tagss
     - field.field.node.room.field_title
-    - field.field.node.room.layout_builder__layout
     - node.type.room
   module:
-    - field_layout
-    - layout_builder
-    - layout_discovery
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          535f0b6d-5167-41e7-9632-f5e02748b98a:
-            uuid: 535f0b6d-5167-41e7-9632-f5e02748b98a
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'extra_field_block:node:room:links'
-            additional: {  }
-            weight: 0
-          52c18e28-19b0-4ccd-95f0-7af89e74eb69:
-            uuid: 52c18e28-19b0-4ccd-95f0-7af89e74eb69
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:room:body'
-              formatter:
-                label: hidden
-                type: text_summary_or_trimmed
-                settings:
-                  trim_length: 600
-                third_party_settings: {  }
-            additional: {  }
-            weight: 1
-        third_party_settings: {  }
 id: node.room.teaser
 targetEntityType: node
 bundle: room
@@ -79,12 +35,11 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_categories: true
   field_description: true
   field_photos: true
   field_preview: true
   field_price: true
-  field_tags: true
-  field_tags_: true
+  field_tagss: true
   field_title: true
   langcode: true
-  layout_builder__layout: true

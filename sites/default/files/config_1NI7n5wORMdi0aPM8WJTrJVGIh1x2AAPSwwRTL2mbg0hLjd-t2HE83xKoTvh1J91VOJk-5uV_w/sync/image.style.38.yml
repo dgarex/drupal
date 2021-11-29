@@ -1,0 +1,14 @@
+uuid: c5de1daa-52f9-4f2f-93c8-9d049f97c871
+langcode: ru
+status: true
+dependencies: {  }
+name: '38'
+label: '380 364'
+effects:
+  3ae87943-de02-4b0c-9da3-18ea96000322:
+    uuid: 3ae87943-de02-4b0c-9da3-18ea96000322
+    id: image_resize
+    weight: 1
+    data:
+      width: 380
+      height: 364

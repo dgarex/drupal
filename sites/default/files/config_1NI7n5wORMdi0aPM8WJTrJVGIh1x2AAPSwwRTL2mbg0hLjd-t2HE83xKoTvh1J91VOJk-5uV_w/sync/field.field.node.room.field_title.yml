@@ -1,4 +1,4 @@
-uuid: eeed6114-adea-4e72-85d2-d51ccbc6decf
+uuid: c7532c6c-d018-4982-99d9-151e3bbf38d4
 langcode: ru
 status: true
 dependencies:
@@ -9,13 +9,11 @@ id: node.room.field_title
 field_name: field_title
 entity_type: node
 bundle: room
-label: Title
-description: 'Заголовок Статьи Drupal'
+label: title
+description: ''
 required: false
 translatable: false
-default_value:
-  -
-    value: 'Статья Drupal'
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: string

@@ -1,4 +1,4 @@
-uuid: cfcbcb85-3ffc-4815-b756-811e4ffe5a0b
+uuid: de698aeb-0f36-4ec1-ac2e-aa0efe0a21fa
 langcode: ru
 status: true
 dependencies:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Footer menu'
+  label: 'Меню в подвале'
   provider: system
   label_display: '0'
   level: 1

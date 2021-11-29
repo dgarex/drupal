@@ -1,4 +1,4 @@
-uuid: 31ef057b-9e2b-47e7-a35d-a7936b5264b4
+uuid: fb69b195-1b81-4f10-9430-99628f4bc0e7
 langcode: ru
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Primary admin actions'
+  label: 'Основные действия администратора'
   provider: core
   label_display: '0'
 visibility: {  }
