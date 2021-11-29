@@ -1,4 +1,4 @@
-uuid: 44f07a8c-44d5-40f7-b79b-4ac29010fd02
+uuid: c1ab7f5b-b378-4707-a77b-04eee88e03bf
 langcode: ru
 status: true
 dependencies:
@@ -14,7 +14,7 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Page title'
+  label: 'Заголовок страницы'
   provider: core
   label_display: '0'
 visibility: {  }

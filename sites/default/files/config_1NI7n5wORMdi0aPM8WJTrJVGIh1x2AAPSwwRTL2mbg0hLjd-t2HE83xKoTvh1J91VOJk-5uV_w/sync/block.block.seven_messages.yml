@@ -1,4 +1,4 @@
-uuid: 4aace5cb-c6c6-4cad-b47f-59d708d6f49e
+uuid: c9b94aa9-182e-4376-9dc9-5b035b38b81d
 langcode: ru
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Status messages'
+  label: 'Системные сообщения'
   provider: system
   label_display: '0'
 visibility: {  }

@@ -1,4 +1,4 @@
-uuid: 95fed5d8-73d7-4d0b-9e08-bdff3d3ea7eb
+uuid: 6b104be1-adde-4c45-bceb-e41cd522abd3
 langcode: ru
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: Search
+  label: Поиск
   provider: search
   label_display: visible
   page_id: node_search

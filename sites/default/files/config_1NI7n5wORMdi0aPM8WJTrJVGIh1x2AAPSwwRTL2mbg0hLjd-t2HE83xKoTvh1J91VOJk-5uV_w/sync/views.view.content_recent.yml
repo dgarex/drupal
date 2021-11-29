@@ -1,4 +1,4 @@
-uuid: 1a5e7c97-e7ea-4b5e-b35a-80790e2c8232
+uuid: a73cbea7-c28d-4c5e-ac55-b28442f79175
 langcode: ru
 status: true
 dependencies:
@@ -18,7 +18,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Default
+    display_title: 'По умолчанию'
     position: 0
     display_options:
       access:
@@ -41,11 +41,11 @@ display:
         options:
           submit_button: Применить
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Сбросить
+          exposed_sorts_label: 'Сортировать по'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: 'По возрастанию'
+          sort_desc_label: 'По убыванию'
       pager:
         type: some
         options:

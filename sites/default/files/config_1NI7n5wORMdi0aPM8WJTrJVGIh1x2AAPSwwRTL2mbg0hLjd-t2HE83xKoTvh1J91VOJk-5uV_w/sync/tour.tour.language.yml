@@ -1,4 +1,4 @@
-uuid: 33e28c20-71c9-414e-9452-393e2997dfe0
+uuid: 1729195c-d9e5-41b1-aff8-a907c444b644
 langcode: ru
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: Ue-WNgRxcyJowLbtW-2ZQawjlNAMVCvK7FveldbwQ_M
 id: language
-label: Language
+label: Язык
 module: language
 routes:
   -

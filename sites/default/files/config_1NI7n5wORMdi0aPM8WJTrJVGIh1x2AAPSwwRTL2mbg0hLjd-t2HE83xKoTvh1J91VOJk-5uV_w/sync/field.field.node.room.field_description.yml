@@ -1,4 +1,4 @@
-uuid: 6a607992-4d34-4579-a9a8-0dd2c790c9cc
+uuid: d19109c3-fece-4421-bb52-b1ef2080df2d
 langcode: ru
 status: true
 dependencies:
@@ -10,12 +10,10 @@ field_name: field_description
 entity_type: node
 bundle: room
 label: Description
-description: 'Description статьи'
+description: ''
 required: false
 translatable: false
-default_value:
-  -
-    value: Drupal
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: string

@@ -1,4 +1,4 @@
-uuid: f09fdb7c-93cf-4599-a722-49ab130a94e7
+uuid: 860f9d6f-0006-40c5-bf5b-08c1cbd42c96
 langcode: ru
 status: true
 dependencies:
@@ -6,14 +6,7 @@ dependencies:
     - block_content.type.basic
     - field.field.block_content.basic.body
   module:
-    - field_layout
-    - layout_discovery
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
 _core:
   default_config_hash: jAps3FCxvKecABS_tgExbhCZrBLQB3bNPWw18WjE3ss
 id: block_content.basic.default

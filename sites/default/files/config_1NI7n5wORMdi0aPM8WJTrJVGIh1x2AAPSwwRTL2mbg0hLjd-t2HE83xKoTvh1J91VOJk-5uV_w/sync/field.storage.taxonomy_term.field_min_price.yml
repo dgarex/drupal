@@ -1,18 +1,17 @@
-uuid: 3ea02c0f-9b3c-4da1-8c3f-bdf84ae74d89
+uuid: f615f7b1-cc63-44e0-8097-744bc6f7a4ea
 langcode: ru
 status: true
 dependencies:
   module:
-    - options
     - taxonomy
 id: taxonomy_term.field_min_price
 field_name: field_min_price
 entity_type: taxonomy_term
-type: list_float
+type: decimal
 settings:
-  allowed_values: {  }
-  allowed_values_function: ''
-module: options
+  precision: 10
+  scale: 2
+module: core
 locked: false
 cardinality: 1
 translatable: true

@@ -1,4 +1,4 @@
-uuid: 4212c293-49e1-4316-b183-f4f3230da067
+uuid: f9235131-19f7-4bb3-a802-2a268e71d213
 langcode: ru
 status: true
 dependencies:
@@ -18,7 +18,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Default
+    display_title: 'По умолчанию'
     position: 0
     display_options:
       access:
@@ -39,13 +39,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Фильтр
           reset_button: true
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Сбросить
+          exposed_sorts_label: 'Сортировать по'
           expose_sort_order: false
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: 'По возрастанию'
+          sort_desc_label: 'По убыванию'
       pager:
         type: mini
         options:
@@ -55,12 +55,12 @@ display:
           total_pages: null
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Элементов на страницу'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Все -'
             offset: false
-            offset_label: Offset
+            offset_label: Пропустить
           tags:
             previous: ‹‹
             next: ››
@@ -297,7 +297,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Type
+          label: Тип
           exclude: false
           alter:
             alter_text: false
@@ -513,7 +513,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: Операции
           exclude: false
           alter:
             alter_text: false
@@ -569,7 +569,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: Type
+            label: Тип
             description: ''
             use_operator: false
             operator: type_op

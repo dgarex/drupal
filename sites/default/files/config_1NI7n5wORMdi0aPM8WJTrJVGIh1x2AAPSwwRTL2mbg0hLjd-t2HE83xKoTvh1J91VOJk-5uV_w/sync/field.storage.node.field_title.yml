@@ -1,4 +1,4 @@
-uuid: 534a637d-7054-4309-9a12-55759587e281
+uuid: 8d2e328e-4e86-4923-abaf-8f560beade00
 langcode: ru
 status: true
 dependencies:
@@ -9,7 +9,7 @@ field_name: field_title
 entity_type: node
 type: string
 settings:
-  max_length: 30
+  max_length: 25
   is_ascii: false
   case_sensitive: false
 module: core

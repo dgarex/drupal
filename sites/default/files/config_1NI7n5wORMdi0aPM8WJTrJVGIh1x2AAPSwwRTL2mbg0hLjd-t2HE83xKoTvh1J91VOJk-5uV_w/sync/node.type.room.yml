@@ -1,4 +1,4 @@
-uuid: 3bfaacc2-3ce5-474d-aa98-5d9a4b76df29
+uuid: 0143798f-4de1-45b9-b756-37224b827305
 langcode: ru
 status: true
 dependencies:
@@ -14,5 +14,5 @@ type: room
 description: ''
 help: ''
 new_revision: true
-preview_mode: 2
+preview_mode: 1
 display_submitted: true

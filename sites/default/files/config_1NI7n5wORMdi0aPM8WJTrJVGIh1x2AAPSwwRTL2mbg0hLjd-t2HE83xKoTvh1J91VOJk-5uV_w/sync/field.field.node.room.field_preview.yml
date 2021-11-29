@@ -1,4 +1,4 @@
-uuid: 93863013-c934-4724-bc7e-bd748f8dc703
+uuid: be518029-9401-40b6-a991-ea863e675355
 langcode: ru
 status: true
 dependencies:
@@ -12,8 +12,8 @@ field_name: field_preview
 entity_type: node
 bundle: room
 label: Preview
-description: 'Загрузка превью для статьи'
-required: false
+description: ''
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -21,16 +21,16 @@ settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
-  max_resolution: ''
-  min_resolution: ''
+  max_resolution: 280x360
+  min_resolution: 280x360
   alt_field: true
   alt_field_required: true
   title_field: false
   title_field_required: false
   default_image:
     uuid: ''
-    alt: 'Превью статьи'
-    title: 'Превью статьи'
+    alt: ''
+    title: ''
     width: null
     height: null
   handler: 'default:file'
