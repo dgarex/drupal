@@ -1,0 +1,12 @@
+uuid: cb6cfcbb-e872-4a93-b415-ab24ab142a9a
+langcode: ru
+status: true
+dependencies: {  }
+id: demo_region_us_midwest_manager
+label: 'United States: Midwest: Manager'
+description: null
+type: demo_region_manager
+permissions:
+  - administer
+emails:
+  - demo_region_manager@test.com

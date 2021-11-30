@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: Ue-WNgRxcyJowLbtW-2ZQawjlNAMVCvK7FveldbwQ_M
 id: language
-label: Язык
+label: Language
 module: language
 routes:
   -
@@ -16,7 +16,7 @@ tips:
   language-overview:
     id: language-overview
     plugin: text
-    label: Языки
+    label: Languages
     body: '<p>Страница "Языки" позволяет вам добавлять, редактировать, удалять, и упорядочивать языки для сайта.</p>'
     weight: 1
   language-add:

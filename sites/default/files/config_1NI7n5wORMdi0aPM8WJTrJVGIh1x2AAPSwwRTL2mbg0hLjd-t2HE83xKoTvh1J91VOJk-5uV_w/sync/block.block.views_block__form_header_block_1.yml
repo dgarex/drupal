@@ -1,0 +1,29 @@
+uuid: 7507f67a-64a1-41c8-8bcb-9348e4a992c4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.form_header
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__form_header_block_1
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:form_header-block_1'
+settings:
+  id: 'views_block:form_header-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/*'
+    negate: false
