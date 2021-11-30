@@ -1,0 +1,12 @@
+uuid: 8d0aa794-1594-42e6-8827-cabdd5b479e7
+langcode: ru
+status: true
+dependencies: {  }
+id: demo_region_admin
+label: 'Demo region admin'
+weight: 3
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access webform overview'
+  - 'view the administration theme'

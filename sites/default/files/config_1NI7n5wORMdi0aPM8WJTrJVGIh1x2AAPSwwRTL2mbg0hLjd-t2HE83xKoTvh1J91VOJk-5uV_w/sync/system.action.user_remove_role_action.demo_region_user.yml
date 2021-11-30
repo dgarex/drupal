@@ -1,0 +1,14 @@
+uuid: 1774cdcd-6e36-4e14-9e85-b510b2821daf
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.demo_region_user
+  module:
+    - user
+id: user_remove_role_action.demo_region_user
+label: 'Удалить роль Demo region user из выбранных пользователей'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: demo_region_user
